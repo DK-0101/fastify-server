@@ -1,0 +1,27 @@
+POST http://localhost:9090/videos
+Content-Type: application/json
+
+{
+    "title": "Video node",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:9090/videos
+
+###
+
+PUT http://localhost:9090/videos/88d0e095-59ff-4247-9cac-c4e5ed49f113
+Content-Type: application/json
+
+{
+    "title": "I love har",
+    "description": "C",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:9090/videos/6af8080c-b627-460e-8d64-74aa22ef0fb1
